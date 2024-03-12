@@ -1,18 +1,24 @@
+* {
+    background-color: lightblue;
+}
 h2 {
     font-size: smaller;
     color: black;
     font-style: normal;
     text-align: center;
+    padding: 30px;
 }
 body {
     margin: 0;
-    padding: 0;
+    padding:0;
     font-family: Arial, sans-serif;
     overflow-x: hidden;
     text-align: justify;
-    
+    background-color: lightblue;
     
 }
+
+
 
 .container {
     display: flex;
@@ -28,6 +34,7 @@ h1 {
     color: black;
     text-align: center;
     background-color: yellow;
+    padding: 15px;
 }
 
 nav {
@@ -81,5 +88,6 @@ div {
 footer{
     margin-top: 120px;
     text-align: center;
-    background-color: lightblue;
+    padding: 20px;
+    background-color: yellow;
 }
